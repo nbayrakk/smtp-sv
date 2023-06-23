@@ -16,7 +16,10 @@ const transporter = nodemailer.createTransport({
 
 // send email
 
-
+app.get("/",(req,res)=>{
+  res.send("<h1>selam</h1>")
+  
+})
 app.get("/s",(req,res)=>{
     res.send("geldi")
     sendMail({}, (err, info) => {
