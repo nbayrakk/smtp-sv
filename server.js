@@ -36,7 +36,7 @@ async function sendMail(user) {
 
     let transporter = nodemailer.createTransport({
       service: "gmail",
-      port: 587,
+      port: 465,
 
       auth: {
         user: "1bilsencom@gmail.com", // generated ethereal user
