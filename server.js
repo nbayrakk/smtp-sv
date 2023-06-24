@@ -36,7 +36,7 @@ async function sendMail(user) {
 
     let transporter = nodemailer.createTransport({
       service: "gmail",
-      port: 25,
+      port: 465,
       secure:'true',
       
       auth: {
