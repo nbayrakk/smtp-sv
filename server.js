@@ -38,7 +38,7 @@ async function sendMail(user) {
       service: "gmail",
       port: 465,
       secure:'true',
-      
+      host:'smtp.gmail.com',
       auth: {
         user: "1bilsencom@gmail.com", // generated ethereal user
         pass: "ywoxcukqbhwcvuao", // generated ethereal password
